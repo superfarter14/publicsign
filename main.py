@@ -12,7 +12,7 @@ teams = ["Arizona Cardinals", "Atlanta Falcons", "Baltimore Ravens", "Buffalo Bi
              "Tampa Bay Buccaneers", "Tennessee Titans", "Washington Commanders"]
 
 
-bot = commands.Bot(command_prefix=',', debug_guilds=[999368523451215882], intents=discord.Intents.all())
+bot = commands.Bot(command_prefix=',', debug_guilds=[guild_id], intents=discord.Intents.all())
 
 @bot.event
 async def on_ready():
